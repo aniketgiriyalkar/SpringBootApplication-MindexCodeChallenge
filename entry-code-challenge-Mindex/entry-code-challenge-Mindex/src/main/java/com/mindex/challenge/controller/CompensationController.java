@@ -47,7 +47,7 @@ public class CompensationController {
      *
      * id is : 16a596ae-edd3-4847-99fe-c4518e82c86f
      */
-    @GetMapping("/employee/{id}/compensation")
+    @GetMapping("/compensation/employee/{id}")
     public Compensation read(@PathVariable String id) {
         LOG.debug("Received compensation read request for id [{}]", id);
 

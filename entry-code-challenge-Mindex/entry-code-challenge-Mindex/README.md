@@ -131,7 +131,7 @@ to get the number of direct reports for that employee.
 
 Compensation data class, controller, service and repository has been created. To test 
 the functionality use the path: localhost:8080/compensation to test the create method(post) and pass the JSON
-object value and to test the read method use the path: localhost:8080/employee/{id}/compensation/ to get the details
+object value and to test the read method use the path: localhost:8080/compensation/employee/{id} to get the details
 of the compensation for the particular employee.
 
 - All functionalities were tested using the Postman application
